@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.exe
+*.zip
+*.spec
+build/
+dist/
+manager_config.json
+Multiwfn_*/
+分析结果/
+*.molden.input
+*_加载测试日志.txt
