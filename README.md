@@ -7,6 +7,10 @@
 
 面向 Windows 的 Multiwfn 多会话桌面管理工具，将原生命令窗口和常规绘图窗口嵌入标签页，方便对多个体系进行波函数分析与结果对比。适用于量子化学研究、教学演示以及重复执行相同分析步骤的工作场景。
 
+### 开发初衷
+
+本工具源于作者个人使用 Multiwfn 时的实际需求：有时需要对多个分子或模型采用相同的分析方法，逐个重复打开 Multiwfn 并输入相同操作较为繁琐。因此开发了这个多开管理器，用于集中管理多个分析会话，减少重复打开程序和重复输入的操作，方便开展同类分析与结果对比。它是辅助个人工作流程的管理工具，不替代 Multiwfn 本体。
+
 ### 主要功能
 
 - 选择每会话线程数，一次打开多个输入文件，或启动空白会话。
@@ -37,6 +41,10 @@
 ## English
 
 A Windows desktop session manager for Multiwfn. It embeds native console and regular plotting windows in tabs, making it easier to analyze multiple systems and compare results. Intended for quantum chemistry research, teaching demonstrations, and repeated analysis workflows.
+
+### Motivation
+
+This tool grew out of the author's personal experience with Multiwfn. Sometimes, the same analysis method needs to be applied to several molecules or models, and repeatedly opening Multiwfn and entering the same commands for each system becomes cumbersome. This manager brings multiple analysis sessions together, reducing repeated program launches and command entry while making similar analyses and result comparisons more convenient. It supports a personal workflow and does not replace Multiwfn itself.
 
 ### Features
 
